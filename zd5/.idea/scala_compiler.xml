@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="zd5_6_3091">
+      <option name="postfixOps" value="true" />
+    </profile>
+    <profile name="sbt 2" modules="zd5_6" />
+  </component>
+</project>

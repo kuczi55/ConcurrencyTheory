@@ -1,0 +1,65 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (Oracle Corporation Java 13.0.1)
+[debug] Load.defaultLoad until apply took 397.017ms
+[debug]           Load.loadUnit: plugins took 110.3364ms
+[debug]           Load.loadUnit: defsScala took 0.4759ms
+[debug] [Loading] Scanning directory C:\Users\Kamil\Desktop\teoria współbieżności\zd5_6\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Kamil\Desktop\teoria współbieżności\zd5_6\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.3017 ms
+[debug]               Load.resolveProject(zd5_6-build) took 57.0656ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id zd5_6-build, base: C:\Users\Kamil\Desktop\teoria współbieżności\zd5_6\project, plugins: List(<none>))) took 131.0789ms
+[debug] [Loading] Done in C:\Users\Kamil\Desktop\teoria współbieżności\zd5_6\project, returning: (zd5_6-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 172.6757ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.8984ms
+[debug]         Load.loadUnit(file:/C:/Users/Kamil/Desktop/teoria%20współbieżności/zd5_6/project/, ...) took 293.8722ms
+[debug]       Load.apply: load took 531.1387ms
+[debug]       Load.apply: resolveProjects took 10.0806ms
+[debug]       Load.apply: finalTransforms took 117.6623ms
+[debug]       Load.apply: config.delegates took 8.6856ms
+[debug]       Load.apply: Def.make(settings)... took 848.7416ms
+[debug]       Load.apply: structureIndex took 112.7353ms
+[debug]       Load.apply: mkStreams took 1.9553ms
+[info] loading project definition from C:\Users\Kamil\Desktop\teoria współbieżności\zd5_6\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2504.7635ms
+[debug]     Load.loadUnit: defsScala took 0.0034ms
+[debug] [Loading] Scanning directory C:\Users\Kamil\Desktop\teoria współbieżności\zd5_6
+[debug]       Load.loadUnit: mkEval took 5.5683ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Kamil\Desktop\teoria współbieżności\zd5_6, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.3951 ms
+[info] loading settings for project zd5_6 from build.sbt ...
+[debug]         Load.resolveProject(zd5_6) took 2.3677ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id zd5_6, base: C:\Users\Kamil\Desktop\teoria współbieżności\zd5_6, plugins: List(<none>))) took 4.2589ms
+[debug] [Loading] Done in C:\Users\Kamil\Desktop\teoria współbieżności\zd5_6, returning: (zd5_6)
+[debug]     Load.loadUnit: loadedProjectsRaw took 102.5236ms
+[debug]     Load.loadUnit: cleanEvalClasses took 16.0048ms
+[debug]   Load.loadUnit(file:/C:/Users/Kamil/Desktop/teoria%20współbieżności/zd5_6/, ...) took 2625.0712ms
+[debug] Load.apply: load took 2651.2463ms
+[debug] Load.apply: resolveProjects took 0.1045ms
+[debug] Load.apply: finalTransforms took 14.4368ms
+[debug] Load.apply: config.delegates took 0.2867ms
+[debug] Load.apply: Def.make(settings)... took 63.6259ms
+[debug] Load.apply: structureIndex took 23.6495ms
+[debug] Load.apply: mkStreams took 0.0017ms
+[info] set current project to zd5_6 (in build file:/C:/Users/Kamil/Desktop/teoria%20współbieżności/zd5_6/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-6e799a99a2e7d35430ee

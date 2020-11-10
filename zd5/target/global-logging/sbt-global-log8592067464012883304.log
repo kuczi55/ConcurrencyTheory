@@ -1,0 +1,7 @@
+[debug] > Exec(all {file:/C:/Users/Kamil/Desktop/teoria%20wspenoci/zd5_6/}zd5_6/products {file:/C:/Users/Kamil/Desktop/teoria%20wspenoci/zd5_6/}zd5_6/test:products, None, None)
+[error] Expected project ID
+[error] all {file:/C:/Users/Kamil/Desktop/teoria%20wspenoci/zd5_6/}zd5_6/products {file:/C:/Users/Kamil/Desktop/teoria%20wspenoci/zd5_6/}zd5_6/test:products
+[error]                                                                 ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
